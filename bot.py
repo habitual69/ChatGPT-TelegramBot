@@ -25,8 +25,8 @@ Here are the Available command(s)
 <b>3: /generate_image to generate image based of description</b>                        
 <i>Note: This bot is still in beta phase and is available for free only for testing purposes.</i>
 
-\n<pre>This bot is createb by</pre> <b>Arbind Singh</b>
-<b>Follow me on</b> <a href='https://github.com/habitual69'>Github</a>
+\n<pre>This bot is createb by</pre>\n<b>Arbind Singh</b>
+<b>You can Follow me on</b>\n<a href='https://github.com/habitual69'>Github</a>
 """,parse_mode='html')
         
     # Check if the user is requesting an image
