@@ -22,13 +22,13 @@ git clone https://github.com/YOUR_USERNAME/chatgpt-bot.git
 cd chatgpt-bot
 ```
 
-1. Install the required Python libraries:
+2. Install the required Python libraries:
 
 ```
 pip install -r requirements.txt
 ```
 
-1. Create a **`config.py`** file in the project directory with the following contents:
+3. Create a **`config.py`** file in the project directory with the following contents:
 
 ```
 API_KEY = "YOUR_API_KEY"
@@ -57,7 +57,7 @@ You can also use Docker to deploy the ChatGPT bot. To do so, follow these steps:
 docker build -t chatgpt-bot .
 ```
 
-1. Run the Docker container:
+2. Run the Docker container:
 
 ```
 docker run -d chatgpt-bot
