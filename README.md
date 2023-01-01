@@ -13,13 +13,13 @@ This is a Python bot that uses the ChatGPT language model to generate responses 
 1. Clone this repository:
 
 ```
-git clone https://github.com/YOUR_USERNAME/chatgpt-bot.git
+git clone https://github.com/YOUR_USERNAME/ChatGPT-TelegramBot.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd chatgpt-bot
+cd ChatGPT-TelegramBot
 ```
 
 3. Install the required Python libraries:
@@ -54,13 +54,13 @@ You can also use Docker to deploy the ChatGPT bot. To do so, follow these steps:
 1. Build the Docker image:
 
 ```
-docker build -t chatgpt-bot .
+docker build -t ChatGPT-TelegramBot .
 ```
 
 2. Run the Docker container:
 
 ```
-docker run -d chatgpt-bot
+docker run -d ChatGPT-TelegramBot
 ```
 
 This will start the ChatGPT bot in a Docker container, which you can then access via Telegram as usual.
