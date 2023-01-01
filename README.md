@@ -16,19 +16,19 @@ This is a Python bot that uses the ChatGPT language model to generate responses 
 git clone https://github.com/YOUR_USERNAME/chatgpt-bot.git
 ```
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```
 cd chatgpt-bot
 ```
 
-2. Install the required Python libraries:
+3. Install the required Python libraries:
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Create a **`config.py`** file in the project directory with the following contents:
+4. Create a **`config.py`** file in the project directory with the following contents:
 
 ```
 API_KEY = "YOUR_API_KEY"
