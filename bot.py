@@ -20,15 +20,13 @@ def run_bot():
             def respond_to_message(message):
                 if "help" in message.text.lower():
                     bot.send_message(message.chat.id, """
-            Here are the Available command(s)
-            <b>1: /Start to start the bot</b>
-            <b>2: /help to get this help text again</b>
-            <b>3: /generate_image to generate image based of description</b>                        
-            <i>Note: This bot is still in beta phase and is available for free only for testing purposes.</i>
-
-            \n<pre>This bot is createb by</pre>\n<b>Arbind Singh</b>
-            <b>You can Follow me on</b>\n<a href='https://github.com/habitual69'>Github</a>
-            """,parse_mode='html')
+Here are the Available command(s)
+<b>1: /Start to start the bot</b>
+<b>2: /help to get this help text again</b>
+<b>3: /generate_image to generate image based of description</b>\n                        
+<i>Note: This bot is still in beta phase and is available for free only for testing purposes.</i>\n
+<pre>This bot is createb by</pre>\n<b>Arbind Singh</b>
+<b>You can Follow me on</b>\n<a href='https://github.com/habitual69'>Github</a>""",parse_mode='html')
                     
                 # Check if the user is requesting an image
                 elif "generate_image" in message.text.lower():
