@@ -20,7 +20,7 @@ def respond_to_message(message):
 Here are the Available command(s)
 <b>1: /Start to start the bot</b>
 <b>2: /help to get this help text again</b>
-<b>3: /generate_image to generate image based of description</b>\n                        
+<b>3: /generate_image to generate image based on the description you provided</b>\n                        
 <i>Note: This bot is still in beta phase and is available for free only for testing purposes.</i>\n
 <pre>This bot is created by</pre>\n<b>Arbind Singh</b>
 <b>You can Follow me on</b>\n<a href='https://github.com/habitual69'>Github</a>""",parse_mode='html')
