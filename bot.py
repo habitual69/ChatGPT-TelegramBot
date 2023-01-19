@@ -45,8 +45,13 @@ Here are the Available command(s)
             temperature=0.5,
             ).choices[0].text
 
-            # Send the generated response to the user
-            bot.send_message(message.chat.id, response)
+            # If the response is too long, send the remaining part as next message
+            if len(response) > 4096:
+                bot.send_message(message.chat.id, response[:4096] + '...')
+                bot.send_message(message.chat.id, response[4096:])
+            else:
+                # Send the generated response to the user
+                bot.send_message(message.chat.id, response)
 def run_bot():
     try:
         # Start the bot
