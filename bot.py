@@ -4,7 +4,7 @@ from config import YOUR_TBOT_TOKEN, YOUR_OAPI_KEY
 
 # Initialize the ChatGPT and DALL-E models
 openai.api_key = YOUR_OAPI_KEY
-model_engine = "text-davinci-002"
+model_engine = "text-davinci-003"
 
 # Create a TeleBot instance
 bot = telebot.TeleBot(YOUR_TBOT_TOKEN)
@@ -40,9 +40,9 @@ Here are the Available command(s)
             response = openai.Completion.create(
             engine=model_engine,
             prompt=f"User: {message.text}\nBot: ",
-            max_tokens=2048,
+            max_tokens=3000,
             n=1,
-            temperature=0.5,
+            temperature=0.7,
             ).choices[0].text
 
             # If the response is too long, send the remaining part as next message
